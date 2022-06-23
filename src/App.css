@@ -1,3 +1,7 @@
+:root {
+    --background-navbar: #6A1DE9;
+}
+
 body {
     padding: 0;
     margin: 0;
