@@ -27,6 +27,30 @@
     font-size: 22px;
 }
 
+.navbar .navbar-container .navbar-l .input-search {
+    width: 450px;
+    height: 28px;
+    margin-right: 30px;
+    background-color: #E5DADA;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    padding-left: 10px;
+}
+
+.navbar .navbar-container .navbar-l .endereco {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-container .navbar-l .endereco .icon-map {
+    margin-right: 5px;
+}
+
+.navbar .navbar-container .navbar-l .endereco .icon-arrow {
+    margin-left: 2px;
+}
+
 .navbar .navbar-container .navbar-r {
     display: flex;
     align-items: center;

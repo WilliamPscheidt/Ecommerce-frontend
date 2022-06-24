@@ -20,13 +20,12 @@
 .departamentos .departamentos-container .departamentos-cards {
     display: flex;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .departamentos .departamentos-container .departamentos-cards .departamento-card {
-    background-color: #fff;
-    margin-left: 30px;  
-    min-width: 292px;
+    background-color: #fff;  
+    width: 350px;
+    height: 200px;
     border-radius: 5px;
-    height: 180px;
 }
