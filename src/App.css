@@ -15,3 +15,19 @@ body {
     margin: 0;
     background-color: #E7E5E5;
 }
+
+.slider-container {
+    position: relative;
+    top: 140px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+}
+
