@@ -21,6 +21,19 @@
     align-items: center;
 }
 
+.navigation .navigation-container .navigation-l .icon-menu {
+    margin-right: 5px;
+}
+
+.navigation .navigation-container .navigation-l .separator {
+    margin: 0 8px;
+}
+
+.navigation .navigation-container .navigation-l .texto-navigation {
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .navigation .navigation-container .navigation-r {
     display: flex;
     align-items: center;
