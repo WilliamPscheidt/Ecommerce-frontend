@@ -43,6 +43,15 @@
     align-items: center;
 }
 
+.navbar .navbar-container .navbar-l .endereco .texto-endereco {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar .navbar-container .navbar-l .endereco .black-font {
+    font-weight: 1000;
+}
+
 .navbar .navbar-container .navbar-l .endereco .icon-map {
     margin-right: 5px;
 }
@@ -54,4 +63,12 @@
 .navbar .navbar-container .navbar-r {
     display: flex;
     align-items: center;
+}
+
+.navbar .navbar-container .navbar-r .texto-r {
+    margin-left: 7px;
+}
+
+.navbar .navbar-container .navbar-r #texto-r-black {
+    font-weight: 800;
 }

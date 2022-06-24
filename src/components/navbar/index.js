@@ -13,13 +13,14 @@ const Navbar = () => {
           <input className='input-search'></input>
           <div className='endereco'>
             <img className="icon-map" src={IconMap} />
-            <span>Selecione o <b>Endereço</b></span>
+            <span className='texto-endereco'>Selecione o <b className='black-font'>Endereço</b></span>
             <img className="icon-arrow" src={ArrowDown} />
           </div>
         </div>
         <div className='navbar-r'>
-          <span>Registrar Conta</span>
-          <span>Faça Login</span>
+          <span className='texto-r'>Registrar <b id="texto-r-black">Conta</b></span>
+          <span className='texto-r' id="texto-r-black">|</span>
+          <span className='texto-r'>Faça <b id="texto-r-black">Login</b></span>
         </div>
       </div>
     </div>
