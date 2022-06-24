@@ -3,6 +3,7 @@ import "./navbar.css"
 
 import IconMap from '../../assets/Icons/map-pin.svg'
 import ArrowDown from '../../assets/Icons/arrow-down.svg'
+import IconSearch from '../../assets/Icons/search.svg'
 
 const Navbar = () => {
   return (
@@ -10,7 +11,12 @@ const Navbar = () => {
       <div className='navbar-container'>
         <div className='navbar-l'>
           <h3 className='logo'>Loja.com.br</h3>
-          <input className='input-search'></input>
+          <div className='barra-pesquisa'>
+            <input className='input-search'></input>
+            <div className='icon-container'>
+              <img className='icon-search' src={IconSearch} />
+            </div>
+          </div>
           <div className='endereco'>
             <img className="icon-map" src={IconMap} />
             <span className='texto-endereco'>Selecione o <b className='black-font'>Endereço</b></span>
