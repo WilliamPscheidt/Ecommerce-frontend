@@ -10,7 +10,7 @@ const Navigation = () => {
         <div className="navigation-container">
             <div className="navigation-l">
                 <img className="icon-menu" src={IconMenu} />
-                <span className='texto-navigation'>Todos os Departamentos</span>
+                <span className='texto-navigation-departamento'>Todos os Departamentos</span>
                 <span className='separator'>|</span>
                 <span className='texto-navigation'>Mais Vendidos</span>
                 <span className='separator'>|</span>

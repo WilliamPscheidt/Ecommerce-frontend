@@ -93,6 +93,20 @@
     margin-left: 7px;
 }
 
+.navbar .navbar-container .navbar-r .icon-menu {
+    display: none;
+}
+
 .navbar .navbar-container .navbar-r #texto-r-black {
     font-weight: 800;
 }
+
+@media only screen and (max-width: 1306px) {
+    .navbar .navbar-container .navbar-l .barra-pesquisa, .navbar .navbar-container .navbar-l .endereco, .texto-r {
+        display: none;
+    }
+
+    .navbar .navbar-container .navbar-r .icon-menu {
+        display: flex;
+    }
+  }

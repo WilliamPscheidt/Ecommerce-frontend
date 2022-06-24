@@ -4,6 +4,7 @@ import "./navbar.css"
 import IconMap from '../../assets/Icons/map-pin.svg'
 import ArrowDown from '../../assets/Icons/arrow-down.svg'
 import IconSearch from '../../assets/Icons/search.svg'
+import IconMenu from '../../assets/Icons/align-justify.svg'
 
 const Navbar = () => {
   return (
@@ -27,6 +28,7 @@ const Navbar = () => {
           <span className='texto-r'>Registrar <b id="texto-r-black">Conta</b></span>
           <span className='texto-r' id="texto-r-black">|</span>
           <span className='texto-r'>Faça <b id="texto-r-black">Login</b></span>
+          <img className="icon-menu" src={IconMenu} />
         </div>
       </div>
     </div>

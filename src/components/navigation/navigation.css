@@ -29,6 +29,11 @@
     margin: 0 8px;
 }
 
+.navigation .navigation-container .navigation-l .texto-navigation-departamento {
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .navigation .navigation-container .navigation-l .texto-navigation {
     font-size: 15px;
     font-weight: 400;
@@ -57,3 +62,8 @@
     color: #EBFF06;
 }
 
+@media only screen and (max-width: 1180px) {
+    .texto-navigation, .separator {
+        display: none;
+    }
+  }
