@@ -2,6 +2,7 @@ import React from 'react'
 import "./navigation.css"
 
 import IconMenu from '../../assets/Icons/align-left.svg'
+import IconCart from '../../assets/Icons/shopping-cart.svg'
 
 const Navigation = () => {
   return (
@@ -24,8 +25,9 @@ const Navigation = () => {
                 <span className='texto-navigation'>Eletrônicos</span>
             </div>
             <div className="navigation-r">
-                <span>Carrinho</span>
-                <span>5</span>
+                <img className="icon-cart" src={IconCart} />
+                <span className='text-cart'>Carrinho</span>
+                <span className='total-carrinho'>5</span>
             </div>
         </div>
     </div>

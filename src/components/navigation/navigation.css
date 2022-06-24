@@ -38,3 +38,22 @@
     display: flex;
     align-items: center;
 }
+
+.navigation .navigation-container .navigation-r .icon-cart {
+    margin-right: 5px;
+}
+
+.navigation .navigation-container .navigation-r .text-cart {
+    font-size: 15px;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.navigation .navigation-container .navigation-r .total-carrinho {
+    position: relative;
+    top: 1px;
+    font-size: 15px;
+    font-weight: 1000;
+    color: #EBFF06;
+}
+
