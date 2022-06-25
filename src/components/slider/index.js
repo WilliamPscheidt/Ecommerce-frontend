@@ -10,7 +10,7 @@ const Slider = () => {
       <div className="container">
         <div className='slider'>
           <div className='container-l'>
-            <img src={IconLeft} />
+            <img className='icon-arrow' src={IconLeft} />
             <span className='texto-slider'>
               <b>Promoção Relâmpago</b><br />
               Toda a loja com 10% de desconto<br />
@@ -18,7 +18,7 @@ const Slider = () => {
             </span>
           </div>
           <div className='container-r'>
-            <img src={IconLeft2} />
+            <img className='icon-arrow' src={IconLeft2} />
           </div>
         </div>
       </div>

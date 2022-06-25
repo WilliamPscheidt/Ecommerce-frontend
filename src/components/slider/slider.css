@@ -40,3 +40,36 @@
 .slider-container .container .slider .container-r {
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 1254px) {
+    .slider-container .container .slider .container-l .texto-slider {
+        margin-left: 40px;
+    }
+}   
+
+@media only screen and (max-width: 804px) {
+    .slider-container .container .slider .container-l .texto-slider {
+        margin-left: 12px;
+        font-size: 20px;
+    }
+    .slider-container {
+        height: 200px;
+    }
+
+    .slider-container .container .slider .icon-arrow {
+        display: none;
+    }
+}   
+
+@media only screen and (max-width: 628px) {
+    .slider-container {
+        top: 380px;
+    }
+}   
+
+@media only screen and (max-width: 448px) {
+    .slider-container .container .slider .container-l .texto-slider {
+        margin-left: 12px;
+        font-size: 18px;
+    }
+}   

@@ -110,6 +110,11 @@
   }
 
 @media only screen and (max-width: 628px) {
+    .departamentos .departamentos-container .departamentos-cards .departamento-card .infos-container .info-texto {
+        color: black;
+        font-size: 17px;
+    }
+
     .departamentos .departamentos-container .departamentos-cards .departamento-card{
         min-width: 100%;
     }
