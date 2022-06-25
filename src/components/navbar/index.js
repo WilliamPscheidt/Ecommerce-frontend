@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className='navbar-l'>
           <h3 className='logo'>Loja.com.br</h3>
           <div className='barra-pesquisa'>
-            <input className='input-search'></input>
+            <input className='input-search' placeholder='Pesquise aqui'></input>
             <div className='icon-container'>
               <img className='icon-search' src={IconSearch} />
             </div>
