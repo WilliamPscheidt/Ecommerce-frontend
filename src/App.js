@@ -13,10 +13,8 @@ function App() {
         <Navigation />
         <Departamentos />
       </header>
-      <section className="slider-container">
-        <div className="container">
+      <section>
           <Slider />
-        </div>
       </section>
     </div>
   );
