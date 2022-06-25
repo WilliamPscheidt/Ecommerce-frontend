@@ -41,7 +41,7 @@ const Produtos = () => {
                 <div className='container-r'>
                     <Produto 
                         imagem={ImgCadeiraGamer}
-                        produto="Cadeira Gamer Led"
+                        produto="Cadeira Gamer"
                         precototal="R$5000,00"
                         preco_promocional="R$4900.00"
                         desconto="10%"
