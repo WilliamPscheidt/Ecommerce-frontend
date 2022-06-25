@@ -2,6 +2,7 @@ import Navbar from "./components/navbar";
 import Navigation from "./components/navigation";
 import Departamentos from "./components/departamentos";
 import Slider from "./components/slider";
+import Produtos from "./components/produtos";
 
 import "./App.css"
 
@@ -13,9 +14,12 @@ function App() {
         <Navigation />
         <Departamentos />
       </header>
-      <section>
+      <section id="slider">
           <Slider />
       </section>
+      <main>
+        <Produtos />
+      </main>
     </div>
   );
 }
