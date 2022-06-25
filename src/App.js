@@ -3,6 +3,7 @@ import Navigation from "./components/navigation";
 import Departamentos from "./components/departamentos";
 import Slider from "./components/slider";
 import Produtos from "./components/produtos";
+import Footer from "./components/footer";
 
 import "./App.css"
 
@@ -20,6 +21,9 @@ function App() {
       <main>
         <Produtos />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

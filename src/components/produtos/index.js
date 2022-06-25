@@ -3,7 +3,7 @@ import React from 'react'
 import IconArrow from '../../assets/Icons/arrow.svg'
 import Produto from './produto'
 
-import ImgComputador from '../../assets/Images/Produtos/Computador.png'
+import ImgCadeiraGamer from '../../assets/Images/Produtos/CadeiraGamer.jpg'
 import ImgA52 from '../../assets/Images/Produtos/A52.png'
 import ImgIphone from '../../assets/Images/Produtos/Iphone.png'
 import ImgG73 from '../../assets/Images/Produtos/G733.png'
@@ -40,8 +40,8 @@ const Produtos = () => {
                 </div>
                 <div className='container-r'>
                     <Produto 
-                        imagem={ImgComputador}
-                        produto="Notebook Acer Nitro 5"
+                        imagem={ImgCadeiraGamer}
+                        produto="Cadeira Gamer Led"
                         precototal="R$5000,00"
                         preco_promocional="R$4900.00"
                         desconto="10%"
