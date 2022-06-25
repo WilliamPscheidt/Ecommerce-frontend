@@ -10,12 +10,19 @@ const Produto = (props) => {
         <div className='card-produto'>
             <div className='container-card'>
                 <div className='tags'>
-                    <div className='tag-desconto'>
-                        <img src={IconTag} /><span className='texto-tag'>10% OFF</span>
-                    </div>
+                    {
+                        props.desconto
+                        ?
+                        <div className='tag-desconto'>
+                            <img src={IconTag} /><span className='texto-tag'>10% OFF</span>
+                        </div>  
+                        :
+                        console.log("Sem desconto")
+                    }
+
                 </div>
                 <div className='imagem-container'>
-                    <img className='imagem-produto' src={ImgComputador} />
+                    <img className='imagem-produto' src={props.imagem} />
                 </div>
                 <div className='estrelas'>
                     <img src={IconEstrela} />
@@ -25,9 +32,9 @@ const Produto = (props) => {
                     <img src={IconEstrela} />
                 </div>
                 <div className='infos'>
-                    <span className='titulo'>Notebook Acer Nitro 5</span>
-                    <span><b className='negrito'>De </b><span className='preco-total'>R$5000,00</span><b className='negrito'> Por</b></span>
-                    <span className='preco-promocional'>R$4900.00</span>
+                    <span className='titulo'>{props.produto}</span>
+                    <span><b className='negrito'>De </b><span className='preco-total'>{props.precototal}</span><b className='negrito'> Por</b></span>
+                    <span className='preco-promocional'>{props.preco_promocional}</span>
                 </div>
                 <div className='container-carrinho'>
                     <span className='add-carrinho'>Adicionar ao Carrinho</span>
