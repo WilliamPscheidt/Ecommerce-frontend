@@ -17,3 +17,28 @@
     align-items: center;
     justify-content: space-between;
 }
+
+
+.footer-container .footer-internal .logo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-container .footer-internal .logo-texto {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.footer-container .footer-internal .navegacao {
+    display: flex;
+}
+
+.footer-container .footer-internal .links {
+    list-style: none;
+}
+
+.footer-container .footer-internal .link {
+    font-size: 15px;
+    font-weight: 500;
+}
