@@ -26,7 +26,24 @@ const Produtos = () => {
             </div>
 
             <div className='container-r'>
-                Produto1
+                <div className='card-produto'>
+                    <div className='container-card'>
+                        <div className='tags'>
+                            <div className='tag-desconto'>
+                                10% OFF
+                            </div>
+                            <div className='tag-maisvendido'>
+                            Mais Vendido
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='card-produto'></div>
+                <div className='card-produto'></div>
+                <div className='card-produto'></div>
+                <div className='card-produto'></div>
+                <div className='card-produto'></div>
+                <div className='card-produto'></div>
             </div>
         </div>
     </div>
