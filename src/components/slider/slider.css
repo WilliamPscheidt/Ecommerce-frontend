@@ -5,15 +5,13 @@
     background: url('../../assets/Images/Slider1.png');
     display: flex;
     align-items: center;
-}
-
-.slider .container-central {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.slider .container-central .container-r {
-    position: relative;
-    right: 0;
+.slider .container-l {
+    margin-left: 10px;
+}
+
+.slider .container-r {
+    margin-right: 10px;
 }
