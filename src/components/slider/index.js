@@ -9,6 +9,11 @@ const Slider = () => {
     <div className='slider'>
       <div className='container-l'>
         <img src={IconLeft} />
+        <span className='texto-slider'>
+          <b>Promoção Relâmpago</b><br />
+          Toda a loja com 10% de desconto<br />
+          Com o cupom <b>promocao1</b>
+        </span>
       </div>
       <div className='container-r'>
         <img src={IconLeft2} />

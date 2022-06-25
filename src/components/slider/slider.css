@@ -9,7 +9,15 @@
 }
 
 .slider .container-l {
+    display: flex;
+    align-items: center;
     margin-left: 10px;
+}
+
+.slider .container-l .texto-slider {
+    font-weight: 500;
+    margin-left: 150px;
+    font-size: 29px;
 }
 
 .slider .container-r {
