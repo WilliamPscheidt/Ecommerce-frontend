@@ -1,6 +1,8 @@
 import React from 'react'
 
 import IconArrow from '../../assets/Icons/arrow.svg'
+import IconTag from '../../assets/Icons/tag.svg'
+import ImgComputador from '../../assets/Images/Produtos/Computador.png'
 
 import './produtos.css'
 
@@ -30,11 +32,11 @@ const Produtos = () => {
                     <div className='container-card'>
                         <div className='tags'>
                             <div className='tag-desconto'>
-                                10% OFF
+                                <img src={IconTag} /><span className='texto-tag'>10% OFF</span>
                             </div>
-                            <div className='tag-maisvendido'>
-                            Mais Vendido
-                            </div>
+                        </div>
+                        <div className='imagem-container'>
+                            <img className='imagem-produto' src={ImgComputador} />
                         </div>
                     </div>
                 </div>
