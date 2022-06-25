@@ -134,6 +134,101 @@ const Produtos = () => {
                         preco_promocional="R$1200.00"
                         desconto="10%"
                     />
+                    <Produto 
+                        imagem={ImgCadeiraGamer}
+                        produto="Cadeira Gamer"
+                        precototal="R$5000,00"
+                        preco_promocional="R$4900.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgA52}
+                        produto="Smartphone A52"
+                        precototal="R$1500,00"
+                        preco_promocional="R$1200.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgIphone}
+                        produto="Iphone 64GB"
+                        precototal="R$9000,00"
+                        preco_promocional="R$8900.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgG73}
+                        produto="Headser G73"
+                        precototal="R$900,00"
+                        preco_promocional="R$800.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgSsd}
+                        produto="SSD 120GB"
+                        precototal="R$120,00"
+                        preco_promocional="R$100.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgHD}
+                        produto="HD Blue 1tb"
+                        precototal="R$100,00"
+                        preco_promocional="R$80.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgMouse}
+                        produto="Mouse Redragon"
+                        precototal="R$180,00"
+                        preco_promocional="R$150.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgGabinete}
+                        produto="Gabinete"
+                        precototal="R$500,00"
+                        preco_promocional="R$400.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgTeclado}
+                        produto="Teclado Alienware"
+                        precototal="R$1000,00"
+                        preco_promocional="R$900.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgMonitor}
+                        produto="Monitor 144hz"
+                        precototal="R$1200,00"
+                        preco_promocional="R$1000.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgMesa}
+                        produto="Desktop I9"
+                        precototal="R$5000,00"
+                        preco_promocional="R$4400.00"
+                        desconto="10%"
+                    />
+
+                    <Produto 
+                        imagem={ImgCadeira}
+                        produto="Cadeira Gamer Led"
+                        precototal="R$1400,00"
+                        preco_promocional="R$1200.00"
+                        desconto="10%"
+                    />
                 </div>
             </div>
         </div>
